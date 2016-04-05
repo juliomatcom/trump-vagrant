@@ -2,7 +2,7 @@
 *"Make Vagrant great again"* :us:     
 ***
 ##### Simple steps to make your vagrant great again
-  -  [Increase memory and cpus](#memory-and-cpu)
+  -  [Increase memory and cpus](#memory-and-cpus)
   -  [Use NFS and private network](#use-nfs-with-private_network)
   -  [*No guest IP was given to the Vagrant core NFS helper*](#no-guest-ip-was-given-to-the-vagrant-core-nfs-helper) (Resolved)
 
