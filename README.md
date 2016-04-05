@@ -8,7 +8,7 @@
 
 
 ##### Memory and cpus:
-First things first, open your **.Vagrantfile** and double (if you can) your **v.memory** and **v.cpus**
+First things first, open your **Vagrantfile** and double (if you can) your **v.memory** and **v.cpus**
 
 ```ruby
 Vagrant.configure("2") do |config|
