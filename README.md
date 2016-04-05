@@ -2,12 +2,12 @@
 *"Make Vagrant great again"* :us:     
 ***
 ##### Simple steps to make your vagrant great again
-  -  [Increase CPUs and memory](#memory-and-cpu)
+  -  [Increase memory and cpus](#memory-and-cpu)
   -  [Use NFS and private network](#use-nfs-with-private_network)
   -  [*No guest IP was given to the Vagrant core NFS helper*](#no-guest-ip-was-given-to-the-vagrant-core-nfs-helper) (Resolved)
 
 
-##### Memory and CPU:
+##### Memory and cpus:
 First things first, open your **.Vagrantfile** and double (if you can) your **v.memory** and **v.cpus**
 
 ```ruby
@@ -19,6 +19,7 @@ Vagrant.configure("2") do |config|
     end
 end
 ```
+NOTE: For some peoples increase the number of cpus actually slower more his vagrant, that's not my case. Give it a chance.
 ##### Use NFS with private_network:
 Why ? Read this [How to make Vagrant performance not suck](https://stefanwrobel.com/how-to-make-vagrant-performance-not-suck)    
 1- Enable **private_network** ( https://www.vagrantup.com/docs/networking/private_network.html )    
