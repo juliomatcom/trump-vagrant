@@ -46,7 +46,7 @@ end
 ##### No guest IP was given to the Vagrant core NFS helper:
 I highly recommend you to use a Static IP and move on, but if you need to use DHCP to get private network working keep reading...  
 
-Sometimes your vagrant can guest your Vagrant got different reports about installed GuestAdditions version.     
+Sometimes your vagrant can get different reports about installed GuestAdditions version.     
 Check this thread to fix that: https://github.com/chef/bento/issues/232 or skip that and install :  
 ```shell
 $ vagrant plugin install vagrant-vbguest
